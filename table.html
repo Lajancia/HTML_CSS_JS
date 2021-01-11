@@ -1,0 +1,26 @@
+<!-- 표그리기 -->
+<html>
+  <body>
+    <table border="1">
+    <thead>
+      <tr>
+      <th>이름</th><th>성별</th><th>주소</th><th>회비</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+    <td>황수민</td> <td>여자</td> <td rowspan="2">울산</td><td>1000</td>
+    </tr>
+    <tr>
+    <td>황수민</td> <td>여자</td>   <td>1000</td>
+    </tr>
+    </tbody>
+    <!-- tfoot는 thead와 tbody보다 맨 마지막에 나타난다. 위치결정 -->
+    <tfoot>
+      <tr>
+    <td colspan="3">합계</td> <td>1500</td>
+    </tr>
+    </tfoot>
+    <table>
+  </body>
+</html>
